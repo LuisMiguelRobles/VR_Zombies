@@ -266,9 +266,9 @@ namespace Gvr.Internal
             outState.accel = aState.acceleration;
             outState.accel.z *= -1;
 
-            // Gyro in GVR represents a right-handed angular velocity about each axis (positive means
+            // Gyro in GVR represents a right-handed angular velocidad about each axis (positive means
             // clockwise when sighting along axis). Since Unity uses a left-handed system, we flip the
-            // signs to adjust the sign of the rotational velocity (so that positive means
+            // signs to adjust the sign of the rotational velocidad (so that positive means
             // counter-clockwise). In addition, since in Unity the Z axis points forward while GVR
             // has Z pointing backwards, we flip the Z axis sign again. So the result is that
             // we should use -X, -Y, +Z:

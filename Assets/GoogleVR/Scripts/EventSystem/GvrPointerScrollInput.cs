@@ -210,7 +210,7 @@ public class GvrPointerScrollInput
 
     private void OnReleaseScrollHandler(GameObject currentScrollHandler)
     {
-        // When we touch up, immediately stop scrolling the currentScrollHandler if it's velocity is
+        // When we touch up, immediately stop scrolling the currentScrollHandler if it's velocidad is
         // low.
         ScrollInfo scrollInfo;
         if (scrollHandlers.TryGetValue(currentScrollHandler, out scrollInfo))
